@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>org</title>
+    
+  </head>
+
+  <body>
+    <div class="surr">
+    <mat-accordion >
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              <div *ngFor = " let l of mocklist">
+                  {{ l.name }}
+              </div>
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image"></div>
+                <mat-card-title>Ned Stark</mat-card-title>
+                <mat-card-subtitle>King in the North</mat-card-subtitle>
+              </mat-card-header>
+              
+              <mat-card-content>
+                  <div class="card">
+                      <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                      <div *ngFor = " let l of mocklist">
+                        <div class="title"><span>Name: </span>{{ l.name }}</div>
+                        <div><a><span>Email: </span>{{ l.email }}</a></div>
+                        <div><a><span>Contact: </span>{{ l.contact }}</a></div>
+                      </div>
+                    </div>
+              </mat-card-content>
+              
+            </mat-card>
+        </mat-expansion-panel>
+        <mat-expansion-panel (opened)="panelOpenState = true"
+                             (closed)="panelOpenState = false">
+        </mat-expansion-panel>
+      </mat-accordion>
+      </div>
+
+
+    
+      
+
+  </body>
+</html>
