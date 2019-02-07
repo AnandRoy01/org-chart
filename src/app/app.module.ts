@@ -10,10 +10,12 @@ import { AppComponent } from './app.component';
 import { MaintaskComponent } from './maintask/maintask.component';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
+import { ListComponent } from './list/list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MaintaskComponent
+    MaintaskComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
