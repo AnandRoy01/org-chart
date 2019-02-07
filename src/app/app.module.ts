@@ -14,6 +14,7 @@ import { ListComponent } from './list/list.component';
 import { TreeComponent } from './tree/tree.component';
 import {MatButtonModule, MatCheckboxModule, MatIconModule, } from '@angular/material';
 import {MatTreeModule} from '@angular/material/tree';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 
@@ -22,7 +23,8 @@ import {MatTreeModule} from '@angular/material/tree';
     AppComponent,
     MaintaskComponent,
     ListComponent,
-    TreeComponent
+    TreeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

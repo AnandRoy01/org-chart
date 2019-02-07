@@ -14,10 +14,12 @@ export class DynamicDatabase{
     ['CEO',['First','Second','Third']],
     ['COO',['Uno','Dos','Tres']],
     ['Second',['2','ii','two']],
-    ['Tres',['Dias','Noches','Tardes']]
+    ['Tres',['Dias','Noches','Tardes']],
+    ['CTO',['ex1','ex2','ex3']],
+    ['2',['3','4','5']]
   ]);
 
-  rootLevelNodes: string[] = ['CEO','COO'];
+  rootLevelNodes: string[] = ['CEO','COO','CTO'];
 
   initialData(): DynamicFlatNode[]{
     return this.rootLevelNodes.map(name => new DynamicFlatNode(name,0,true));
