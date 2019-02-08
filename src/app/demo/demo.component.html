@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>org-chart</title>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <div class="tree">
+        <ul>
+        <li>
+            
+                
+          <a ><div class="surr">
+              <mat-accordion >
+                  <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                      <mat-panel-title>
+                       <!-- <div *ngFor = " let l of mocklist">
+                            {{ l.name }}
+                        </div>-->
+                        Ned Stark
+                      </mat-panel-title>
+                    </mat-expansion-panel-header>
+                        <!--<mat-card-header>
+                          <div mat-card-avatar class="example-header-image"></div>
+                          <mat-card-title>Ned Stark</mat-card-title>
+                          <mat-card-subtitle>King in the North</mat-card-subtitle>
+                        </mat-card-header>-->
+                        
+                            <div class="card">
+                                <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                
+                                  <div class="title">Ned Stark</div>
+                                  <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                  <div><a><span>Contact: </span>1234444</a></div>
+                                  <br />
+                            </div>
+                        
+                      
+                  </mat-expansion-panel>
+                  <mat-expansion-panel (opened)="panelOpenState = true"
+                                       (closed)="panelOpenState = false">
+                  </mat-expansion-panel>
+                </mat-accordion></div></a>
+        
+          <ul>
+            <li>
+              <a>
+                  <div class="surr">
+                      <mat-accordion >
+                          <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                              <mat-panel-title>
+                               <!-- <div *ngFor = " let l of mocklist">
+                                    {{ l.name }}
+                                </div>-->
+                                Ned Stark
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <mat-card class="example-card">
+                                <!--<mat-card-header>
+                                  <div mat-card-avatar class="example-header-image"></div>
+                                  <mat-card-title>Ned Stark</mat-card-title>
+                                  <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                </mat-card-header>-->
+                                
+                                <mat-card-content>
+                                    <div class="card">
+                                        <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                        
+                                          <div class="title">Ned Stark</div>
+                                          <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                          <div><a><span>Contact: </span>1234444</a></div>
+                                          <br />
+                                    </div>
+                                </mat-card-content>
+                                
+                              </mat-card>
+                          </mat-expansion-panel>
+                          <mat-expansion-panel (opened)="panelOpenState = true"
+                                               (closed)="panelOpenState = false">
+                          </mat-expansion-panel>
+                        </mat-accordion></div>
+              </a>
+              <ul>
+                <li>
+                  <a><div class="surr">
+                      <mat-accordion >
+                          <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                              <mat-panel-title>
+                               <!-- <div *ngFor = " let l of mocklist">
+                                    {{ l.name }}
+                                </div>-->
+                                Ned Stark
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <mat-card class="example-card">
+                                <!--<mat-card-header>
+                                  <div mat-card-avatar class="example-header-image"></div>
+                                  <mat-card-title>Ned Stark</mat-card-title>
+                                  <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                </mat-card-header>-->
+                                
+                                <mat-card-content>
+                                    <div class="card">
+                                        <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                        
+                                          <div class="title">Ned Stark</div>
+                                          <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                          <div><a><span>Contact: </span>1234444</a></div>
+                                          <br />
+                                    </div>
+                                </mat-card-content>
+                                
+                              </mat-card>
+                          </mat-expansion-panel>
+                          <mat-expansion-panel (opened)="panelOpenState = true"
+                                               (closed)="panelOpenState = false">
+                          </mat-expansion-panel>
+                        </mat-accordion></div></a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a>
+                  <div class="surr">
+                      <mat-accordion >
+                          <mat-expansion-panel>
+                            <mat-expansion-panel-header>
+                              <mat-panel-title>
+                               <!-- <div *ngFor = " let l of mocklist">
+                                    {{ l.name }}
+                                </div>-->
+                                Ned Stark
+                              </mat-panel-title>
+                            </mat-expansion-panel-header>
+                            <mat-card class="example-card">
+                                <!--<mat-card-header>
+                                  <div mat-card-avatar class="example-header-image"></div>
+                                  <mat-card-title>Ned Stark</mat-card-title>
+                                  <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                </mat-card-header>-->
+                                
+                                <mat-card-content>
+                                    <div class="card">
+                                        <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                        
+                                          <div class="title">Ned Stark</div>
+                                          <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                          <div><a><span>Contact: </span>1234444</a></div>
+                                          <br />
+                                    </div>
+                                </mat-card-content>
+                                
+                              </mat-card>
+                          </mat-expansion-panel>
+                          <mat-expansion-panel (opened)="panelOpenState = true"
+                                               (closed)="panelOpenState = false">
+                          </mat-expansion-panel>
+                        </mat-accordion></div>
+              </a>
+              <ul>
+                <li><a><div class="surr">
+                    <mat-accordion >
+                        <mat-expansion-panel>
+                          <mat-expansion-panel-header>
+                            <mat-panel-title>
+                             <!-- <div *ngFor = " let l of mocklist">
+                                  {{ l.name }}
+                              </div>-->
+                              Ned Stark
+                            </mat-panel-title>
+                          </mat-expansion-panel-header>
+                          <mat-card class="example-card">
+                              <!--<mat-card-header>
+                                <div mat-card-avatar class="example-header-image"></div>
+                                <mat-card-title>Ned Stark</mat-card-title>
+                                <mat-card-subtitle>King in the North</mat-card-subtitle>
+                              </mat-card-header>-->
+                              
+                              <mat-card-content>
+                                  <div class="card">
+                                      <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                      
+                                        <div class="title">Ned Stark</div>
+                                        <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                        <div><a><span>Contact: </span>1234444</a></div>
+                                        <br />
+                                  </div>
+                              </mat-card-content>
+                              
+                            </mat-card>
+                        </mat-expansion-panel>
+                        <mat-expansion-panel (opened)="panelOpenState = true"
+                                             (closed)="panelOpenState = false">
+                        </mat-expansion-panel>
+                      </mat-accordion></div></a></li>
+                <li>
+                  <a>
+                      <div class="surr">
+                          <mat-accordion >
+                              <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                  <mat-panel-title>
+                                   <!-- <div *ngFor = " let l of mocklist">
+                                        {{ l.name }}
+                                    </div>-->
+                                    Ned Stark
+                                  </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <mat-card class="example-card">
+                                    <!--<mat-card-header>
+                                      <div mat-card-avatar class="example-header-image"></div>
+                                      <mat-card-title>Ned Stark</mat-card-title>
+                                      <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                    </mat-card-header>-->
+                                    
+                                    <mat-card-content>
+                                        <div class="card">
+                                            <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                            
+                                              <div class="title">Ned Stark</div>
+                                              <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                              <div><a><span>Contact: </span>1234444</a></div>
+                                              <br />
+                                        </div>
+                                    </mat-card-content>
+                                    
+                                  </mat-card>
+                              </mat-expansion-panel>
+                              <mat-expansion-panel (opened)="panelOpenState = true"
+                                                   (closed)="panelOpenState = false">
+                              </mat-expansion-panel>
+                            </mat-accordion></div>
+                  </a>
+                  <ul>
+                    <li>
+                      <a><div class="surr">
+                          <mat-accordion >
+                              <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                  <mat-panel-title>
+                                   <!-- <div *ngFor = " let l of mocklist">
+                                        {{ l.name }}
+                                    </div>-->
+                                    Ned Stark
+                                  </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <mat-card class="example-card">
+                                    <!--<mat-card-header>
+                                      <div mat-card-avatar class="example-header-image"></div>
+                                      <mat-card-title>Ned Stark</mat-card-title>
+                                      <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                    </mat-card-header>-->
+                                    
+                                    <mat-card-content>
+                                        <div class="card">
+                                            <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                            
+                                              <div class="title">Ned Stark</div>
+                                              <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                              <div><a><span>Contact: </span>1234444</a></div>
+                                              <br />
+                                        </div>
+                                    </mat-card-content>
+                                    
+                                  </mat-card>
+                              </mat-expansion-panel>
+                              <mat-expansion-panel (opened)="panelOpenState = true"
+                                                   (closed)="panelOpenState = false">
+                              </mat-expansion-panel>
+                            </mat-accordion></div></a>
+                    </li>
+                    <li>
+                      <a><div class="surr">
+                          <mat-accordion >
+                              <mat-expansion-panel>
+                                <mat-expansion-panel-header>
+                                  <mat-panel-title>
+                                   <!-- <div *ngFor = " let l of mocklist">
+                                        {{ l.name }}
+                                    </div>-->
+                                    Ned Stark
+                                  </mat-panel-title>
+                                </mat-expansion-panel-header>
+                                <mat-card class="example-card">
+                                    <!--<mat-card-header>
+                                      <div mat-card-avatar class="example-header-image"></div>
+                                      <mat-card-title>Ned Stark</mat-card-title>
+                                      <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                    </mat-card-header>-->
+                                    
+                                    <mat-card-content>
+                                        <div class="card">
+                                            <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                            
+                                              <div class="title">Ned Stark</div>
+                                              <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                              <div><a><span>Contact: </span>1234444</a></div>
+                                              <br />
+                                        </div>
+                                    </mat-card-content>
+                                    
+                                  </mat-card>
+                              </mat-expansion-panel>
+                              <mat-expansion-panel (opened)="panelOpenState = true"
+                                                   (closed)="panelOpenState = false">
+                              </mat-expansion-panel>
+                            </mat-accordion></div></a>
+                    </li>
+                    <li>
+                      <a>
+                          <div class="surr">
+                              <mat-accordion >
+                                  <mat-expansion-panel>
+                                    <mat-expansion-panel-header>
+                                      <mat-panel-title>
+                                       <!-- <div *ngFor = " let l of mocklist">
+                                            {{ l.name }}
+                                        </div>-->
+                                        Ned Stark
+                                      </mat-panel-title>
+                                    </mat-expansion-panel-header>
+                                    <mat-card class="example-card">
+                                        <!--<mat-card-header>
+                                          <div mat-card-avatar class="example-header-image"></div>
+                                          <mat-card-title>Ned Stark</mat-card-title>
+                                          <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                        </mat-card-header>-->
+                                        
+                                        <mat-card-content>
+                                            <div class="card">
+                                                <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                                
+                                                  <div class="title">Ned Stark</div>
+                                                  <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                                  <div><a><span>Contact: </span>1234444</a></div>
+                                                  <br />
+                                            </div>
+                                        </mat-card-content>
+                                        
+                                      </mat-card>
+                                  </mat-expansion-panel>
+                                  <mat-expansion-panel (opened)="panelOpenState = true"
+                                                       (closed)="panelOpenState = false">
+                                  </mat-expansion-panel>
+                                </mat-accordion></div>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a>
+                    <div class="surr">
+                        <mat-accordion >
+                            <mat-expansion-panel>
+                              <mat-expansion-panel-header>
+                                <mat-panel-title>
+                                 <!-- <div *ngFor = " let l of mocklist">
+                                      {{ l.name }}
+                                  </div>-->
+                                  Ned Stark
+                                </mat-panel-title>
+                              </mat-expansion-panel-header>
+                              <mat-card class="example-card">
+                                  <!--<mat-card-header>
+                                    <div mat-card-avatar class="example-header-image"></div>
+                                    <mat-card-title>Ned Stark</mat-card-title>
+                                    <mat-card-subtitle>King in the North</mat-card-subtitle>
+                                  </mat-card-header>-->
+                                  
+                                  <mat-card-content>
+                                      <div class="card">
+                                          <img src="../../assets/ned.jpg" alt="John" style="width:100%">
+                                          
+                                            <div class="title">Ned Stark</div>
+                                            <div><a><span>Email: </span>Ned.Stark@got.com</a></div>
+                                            <div><a><span>Contact: </span>1234444</a></div>
+                                            <br />
+                                      </div>
+                                  </mat-card-content>
+                                  
+                                </mat-card>
+                            </mat-expansion-panel>
+                            <mat-expansion-panel (opened)="panelOpenState = true"
+                                                 (closed)="panelOpenState = false">
+                            </mat-expansion-panel>
+                          </mat-accordion></div>
+                </a></li>
+                <!--ignore-->
+                
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+</body>
+</html>
+
